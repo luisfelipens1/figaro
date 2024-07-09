@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato | Fígaro Barbearia</title>
+    <meta name="description" content="Entre em contato com a gente. Envie uma mensagem via formulário ou fale com a gente através dos nossos canais de contato.">
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body id="contato">
+    <header>
+        <div class="header container">
+            <a href="./index.html">
+                <img src="./images/header-logo.svg" class="header-logo" alt="Fígaro Barbearia" width="90" height="84">
+            </a>
+
+            <nav class="header-nav">
+                <button id="btn-mobile" aria-label="Abrir Menu" aria-expanded="false" aria-controls="menu" aria-haspopup="true">
+                    <span class="hamburger"></span>
+                </button>
+
+                <ul class="nav-menu body-1 white" id="menu" role="menu">
+                    <li class="nav-item">
+                        <a href="./sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./servicos.html" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./horarios.html" class="nav-link">Horários</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contato.html" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contact-hero banner">
+            <div class="banner-content container">
+                <h1 class="banner-title headline-1 white">Contato<span class="primary">.</span></h1>
+                <p class="description gray-3">Entre em contato conosco para dúvidas e agendamentos.</p>
+            </div>
+        </div>
+
+        <section class="contact-section container">
+            <form class="contact-form" method="post" data-aos="fade-down" data-aos-duration="800">
+                <div class="form-group">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" id="name" class="form-input" placeholder="Seu Nome" autocomplete="off" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="form-label">Telefone</label>
+                    <input type="tel" id="phone" class="form-input" placeholder="00 12345-6789" autocomplete="off" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea id="message" placeholder="O que você deseja?" class="form-input">
+                    </textarea>
+                </div>
+                <button class="form-btn button">Enviar Mensagem</button>
+            </form>
+
+            <div class="means-contact" data-aos="fade-down" data-aos-duration="800">
+                <h2 class="means-title headline-3 gray-11">
+                    Meios de Contato<span class="primary">.</span>
+                </h2>
+                <ul class="contact-itens">
+                    <li class="contact-item">
+                        <img src="./images/icons/phone.svg" alt="">
+                        <div class="item-info">
+                            <p class="subtitle-1 gray-7">Nosso Telefone</p>
+                            <span class="body-1 gray-11">
+                                <a href="tel:+5500123456789">+55 00 12345-6789</a>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <img src="./images/icons/email.svg" alt="">
+                        <div class="item-info">
+                            <p class="subtitle-1 gray-7">Nosso Email</p>
+                            <span class="body-1 gray-11">
+                                <a href="mailto:figarobarbearia@gmail.com">figarobarbearia@gmail.com</a>
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <img src="./images/icons/address.svg" alt="">
+                        <div class="item-info">
+                            <p class="subtitle-1 gray-7">Nosso Endereço</p>
+                            <span class="body-1 gray-11">
+                                Rua Ali Perto, Filadélfia, 999<br>
+                                Iguatu, Ceará, Brasil
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div class="map" data-aos="fade-right" data-aos-duration="800">
+        <img src="./images/photos/others/map.jpg" alt="Mapa com a localização do nosso salão.">
+    </div>
+
+    <section class="faq container">
+        <div class="faq-heading" data-aos="fade-down" data-aos-duration="800">
+            <span class="section-subtitle">faq</span>
+            <h2 class="faq-title headline-2 gray-11">
+                Perguntas que nos fazem frequentemente<span class="primary">.</span>
+            </h2>
+        </div>
+        
+        <dl class="faq-list" data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">
+            <div class="faq-item">
+                <dt class="faq-question">
+                    <button class="subtitle-1 gray-11" aria-controls="pergunta1" aria-expanded="true">
+                        Quais meios de pagamento vocês aceitam?
+                    </button>
+                </dt>
+                <dd class="faq-answer body-1 gray-9 active" id="pergunta1">
+                    Aceitamos cartões de crédito e débito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitamos pix e dinheiro.
+                </dd>
+            </div>
+
+            <div class="faq-item">
+                <dt class="faq-question">
+                    <button class="subtitle-1 gray-11" aria-controls="pergunta2" aria-expanded="false">
+                        Como faço com meu horário agendado?
+                    </button>
+                </dt>
+                <dd class="faq-answer body-1 gray-9" id="pergunta2">
+                    Após agendar e confirmar o seu horário, ao chegar na barbearia procure o barbeiro que ficou responsável pelo seu atendimento e foi informado na hora do agendamento.
+                </dd>
+            </div>
+
+            <div class="faq-item">
+                <dt class="faq-question">
+                    <button class="subtitle-1 gray-11" aria-controls="pergunta3" aria-expanded="false">
+                        Quais descontos vocês oferecem?
+                    </button>
+                </dt>
+                <dd class="faq-answer body-1 gray-9" id="pergunta3">
+                    Nós oferecemos descontos na semana, em datas e em ocasições especiais, fique sempre atento a nossas redes sociais (Instagram e Facebook) para ver as promoções e descontos.
+                </dd>
+            </div>
+
+            <div class="faq-item">
+                <dt class="faq-question">
+                    <button class="subtitle-1 gray-11" aria-controls="pergunta4" aria-expanded="false">
+                        Vocês atendem apenas adultos?
+                    </button>
+                </dt>
+                <dd class="faq-answer body-1 gray-9" id="pergunta4">
+                    Não, nossa equipe é especializada nos mais diferentes públicos, não atendemos somente adultos, atendemos também crianças, todos tem espaço na Fígaro.
+                </dd>
+            </div>
+
+            <div class="faq-item">
+                <dt class="faq-question">
+                    <button class="subtitle-1 gray-11" aria-controls="pergunta5" aria-expanded="false">
+                        Posso reagendar o meu horário?
+                    </button>
+                </dt>
+                <dd class="faq-answer body-1 gray-9" id="pergunta5">
+                    Os horários agendados somente poderão ser reagendados caso seja relatado o desejo de mudança com antecedência, e caso não tenha outros agendamentos no novo horário.
+                </dd>
+            </div>
+
+            <div class="faq-item">
+                <dt class="faq-question">
+                    <button class="subtitle-1 gray-11" aria-controls="pergunta6" aria-expanded="false">
+                        Posso entrar em contato via Instagram?
+                    </button>
+                </dt>
+                <dd class="faq-answer body-1 gray-9" id="pergunta6">
+                    Nosso Instagram é mais utilizado para postagens diárias, rotina e informes, para entrar em contato conosoco recomendamos o nosso Whatsapp ou nosso formulário de contato.
+                </dd>
+            </div>
+        </dl>
+    </section>
+
+    <footer class="footer-bg">
+        <div class="footer-content container">
+            <img src="./images/footer-logo.svg" alt="Fígaro Barbearia" class="footer-logo" data-aos="fade-right" data-aos-duration="800" width="100">
+
+            <div class="contact" data-aos="fade-right" data-aos-duration="800">
+                <h3 class="footer-title headline-5 white">ENTRE EM CONTATO</h3>
+
+                <div class="contact-links body-1 gray-5">
+                    <a href="tel:+5500123456789">+55 00 12345-6789</a>
+                    <a href="mailto:figarobarbearia@gmail.com">figarobarbearia@gmail.com</a>
+                </div>
+
+                <address class="body-1 gray-5">
+                    Rua Ali Perto, Filadélfia, 999 <br> Iguatu, Ceará, Brasil
+                </address>
+
+                <div class="social-media">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./images/icons/instagram.svg" alt="Instagram" width="32" height="32">
+                    </a>
+                    <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                        <img src="./images/icons/facebook.svg" alt="Facebook" width="32" height="32">
+                    </a>
+                    <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+                        <img src="./images/icons/whatsapp.svg" alt="Whatsapp" width="32" height="32">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-nav" data-aos="fade-right" data-aos-duration="800">
+                <h3 class="footer-title headline-5 white">INFORMAÇÕES</h3>
+                <nav>
+                    <ul class="footer-menu body-1 gray-5">
+                        <li><a href="./sobre.html">Sobre</a></li>
+                        <li><a href="./servicos.html">Serviços</a></li>
+                        <li><a href="./horarios.html">Horários</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p class="body-1 gray-6">Fígaro Barbearia 2024. Alguns Direitos Reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

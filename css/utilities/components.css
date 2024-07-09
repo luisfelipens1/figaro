@@ -1,0 +1,125 @@
+/* ---------- Container ---------- */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media(max-width: 1200px){
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media(max-width: 992px){
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media(max-width: 768px){
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media(max-width: 576px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+/* ---------- Button ---------- */
+.button{
+    border: none !important;
+    background-color: var(--primary);
+    color: var(--black);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.44;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px 28px;
+    border-radius: 8px;
+    transition: 0.3s;
+    max-width: max-content;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--primary-1);
+}
+
+.button.icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button.icon img{
+    transition: 0.3s;
+}
+
+.button.icon:hover img{
+    transform: translateX(8px);
+}
+
+@media(max-width: 576px){
+    .button{
+        font-size: 0.875rem;
+        padding: 10px 20px;
+    }
+}
+
+/* ---------- Section Subtitle ---------- */
+.section-subtitle{
+    color: var(--primary-1);
+    font-size: 1rem;
+    line-height: 1.44;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+@media(max-width: 576px){
+    .section-subtitle{
+        font-size: 0.875rem;
+    }
+}
+
+/* ---------- Banner ---------- */
+.banner{
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-title{
+    margin-bottom: 20px;
+}
+
+@media(max-width: 576px){
+    .banner{
+        height: 60vh;
+    }
+}

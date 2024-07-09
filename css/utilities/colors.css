@@ -1,0 +1,95 @@
+:root{
+    --black: #0E0E0E;
+    --gray-11: #1A1A1A;
+    --gray-10: #2E2E2E;
+    --gray-9: #404040;
+    --gray-8: #595959;
+    --gray-7: #717171;
+    --gray-6: #9C9C9C;
+    --gray-5: #B2B2B2;
+    --gray-4: #CCCCCC;
+    --gray-3: #DEDEDE;
+    --gray-2: #EDEDED;
+    --white: #F7F7F7;
+
+    --primary: #DE9E48;
+    --primary-1: #C47F2B;
+    --primary-2: #AB6515;
+    --primary-3: #783C00;
+    --primary-4: #522700;
+    --primary-5: #2B1400;
+}
+
+/* ---------- Grayscale colors classes ---------- */
+.black{
+    color: var(--black);
+}
+
+.gray-11{
+    color: var(--gray-11);
+}
+
+.gray-10{
+    color: var(--gray-10);
+}
+
+.gray-9{
+    color: var(--gray-9);
+}
+
+.gray-8{
+    color: var(--gray-8);
+}
+
+.gray-7{
+    color: var(--gray-7);
+}
+
+.gray-6{
+    color: var(--gray-6);
+}
+
+.gray-5{
+    color: var(--gray-5);
+}
+
+.gray-4{
+    color: var(--gray-4);
+}
+
+.gray-3{
+    color: var(--gray-3);
+}
+
+.gray-2{
+    color: var(--gray-2);
+}
+
+.white{
+    color: var(--white);
+}
+
+/* ---------- Primary colors classes ---------- */
+.primary{
+    color: var(--primary);
+}
+
+.primary-1{
+    color: var(--primary-1);
+}
+
+.primary-2{
+    color: var(--primary-2);
+}
+
+.primary-3{
+    color: var(--primary-3);
+}
+
+.primary-4{
+    color: var(--primary-4);
+}
+
+.primary-5{
+    color: var(--primary-5);
+}

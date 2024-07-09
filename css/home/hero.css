@@ -1,0 +1,56 @@
+.hero-bg{
+    background-image: url('../../images/photos/banners/hero-banner.jpg');
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+
+.hero{
+    height: 100vh;
+    padding-top: 120px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.hero-title{
+    max-width: 25ch;
+    margin-bottom: 32px;
+}
+
+.hero-description{
+    max-width: 49ch;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 992px){
+    .hero{
+        padding-top: 80px;
+    }
+}
+
+@media(max-width: 768px){
+    .hero-title{
+        margin-bottom: 24px;
+    }
+
+    .hero-description{
+        margin-bottom: 16px;
+    }
+}
+
+@media(max-width: 576px){
+    .hero{
+        height: 85vh;
+        padding-top: 60px;
+    }
+
+    .hero-title,
+    .hero-description{
+        max-width: 100%;
+    }
+}
+
+
+

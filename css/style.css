@@ -1,0 +1,32 @@
+@import './global/reset.css';
+@import './utilities/typography.css';
+@import './utilities/colors.css';
+@import './utilities/animation.css';
+@import './global/header.css';
+@import './global/footer.css';
+
+/* ---------- Utilities ---------- */
+@import './utilities/components.css';
+@import './utilities/form.css';
+
+/* ---------- Home ---------- */
+@import './home/hero.css';
+@import './home/about.css';
+@import './home/services.css';
+@import './home/salon.css';
+@import './home/video.css';
+@import './home/testimonials.css';
+
+/* ---------- About ---------- */
+@import './about/sections.css';
+
+/* ---------- Services ---------- */
+@import './services/prices.css';
+@import './services/quality.css';
+
+/* ---------- Schedules ---------- */
+@import './schedules/schedules.css';
+
+/* ---------- Contact ---------- */
+@import './contact/contact.css';
+@import './contact/faq.css';

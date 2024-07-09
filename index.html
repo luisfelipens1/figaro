@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fígaro Barbearia</title>
+    <meta name="description" content="Seja Bem Vindo a Fígaro Barbearia. Transforme o seu visual e aproveite todos os nossos serviços exclusivos e de qualidade.">
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200..1000&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body id="home">
+    <header>
+        <div class="header container">
+            <a href="./index.html">
+                <img src="./images/header-logo.svg" class="header-logo" alt="Fígaro Barbearia" width="90" height="84">
+            </a>
+
+            <nav class="header-nav">
+                <button id="btn-mobile" aria-label="Abrir Menu" aria-expanded="false" aria-controls="menu" aria-haspopup="true">
+                    <span class="hamburger"></span>
+                </button>
+
+                <ul class="nav-menu body-1 white" id="menu" role="menu">
+                    <li class="nav-item">
+                        <a href="./sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./servicos.html" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./horarios.html" class="nav-link">Horários</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contato.html" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hero-bg">
+        <div class="hero container">
+            <h1 class="hero-title headline-1 white">
+                Estilo, tradição e inovação: Cortes que falam por si<span class="primary">.</span>
+            </h1>
+            <p class="hero-description description gray-4">
+                Bem-vindo à Fígaro Barbearia, onde o estilo é personalidade e cada cliente é uma obra-prima única!
+            </p>
+            <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank" class="button">
+                Agendar Horário
+            </a>
+        </div>
+    </main>
+
+    <article class="about container" id="about" aria-labelledby="about-title">
+        <div class="about-img" data-aos="fade-right" dada-aos-duration="800">
+            <picture>
+                <source media="(max-width: 900px)" srcset="./images/photos/about/about-tablet.jpg">
+                <source media="(max-width: 576px)" srcset="./images/photos/about/about-mobile.jpg">
+                <img src="./images/photos/about/about.jpg" alt="Conheça um pouco mais sobre a Fígaro e sua história" width="600">
+            </picture>
+        </div>
+
+        <div class="about-content" data-aos="fade-right" dada-aos-duration="800" data-aos-delay="400">
+            <div class="about-heading">
+                <span class="section-subtitle">sobre nós</span>
+                <h2 class="about-title gray-11 headline-2" id="about-title">
+                    Tradição e experiência em cortes de cabelo<span class="primary">.</span>
+                </h2>
+            </div>
+
+            <div class="about-text body-1 gray-9">
+                <p>
+                    A Fígaro foi inspirada nas tradicionais barbearias nova-iorquinas típicas das décadas de 40, 50 e 60 onde todos os homens se encontravam para fazer a barba e cortar os cabelos enquanto conversavam.
+                </p>
+                <p>
+                    Com anos de experiência oferecemos os melhores serviços e atendimento aos nossos clientes. Aqui a arte de transformar vai além dos fios. Descubra o poder de um corte que fala por si só.
+                </p>
+            </div>
+
+            <a href="./sobre.html" class="button icon">
+                Conheça Mais
+                <img src="./images/icons/arrow.svg" alt="" width="30" height="30">
+            </a>
+        </div>
+    </article>
+
+    <article class="services-bg" id="services" aria-labelledby="services-title">
+        <div class="services container">
+            <div class="services-heading" data-aos="fade-down" data-aos-duration="800">
+                <span class="section-subtitle">serviços</span>
+                <h2 class="services-title headline-2 white" id="services-title">
+                    Mude seu visual com os nossos serviços especiais<span class="primary">.</span>
+                </h2>
+            </div>
+
+            <ul class="services-list" data-aos="fade-right" data-aos-duration="800">
+                <li class="service">
+                    <a href="./servicos.html">
+                        <picture class="img-service">
+                            <source media="(max-width: 768px)" srcset="./images/photos/services/haircut-mobile.jpg">
+                            <img src="./images/photos/services/haircut.jpg" alt="Transforme seu visual com nossos cortes." width="720">
+                        </picture>
+                        <h3 class="service-title white headline-4">Corte de Cabelo</h3>
+                        <span class="service-price gray-5 subtitle-1">A partir de R$ 20</span>
+                    </a>
+                </li>
+
+                <li class="service">
+                    <a href="./servicos.html">
+                        <picture class="img-service">
+                            <source media="(max-width: 768px)" srcset="./images/photos/services/barb-mobile.jpg">
+                            <img src="./images/photos/services/barb.jpg" alt="A barba é a maquiagem do homem, deixe a sua em dia" width="720">
+                        </picture>
+                        <h3 class="service-title white headline-4">Barba</h3>
+                        <span class="service-price gray-5 subtitle-1">A partir de R$ 15</span>
+                    </a>
+                </li>
+
+                <li class="service">
+                    <a href="./servicos.html">
+                        <picture class="img-service">
+                            <source media="(max-width: 768px)" srcset="./images/photos/services/finishes-mobile.jpg">
+                            <img src="./images/photos/services/finishes.jpg" alt="Dê uns retoques no seu visual para ficar ainda mais bonito." width="720">
+                        </picture>
+                        <h3 class="service-title white headline-4">Acabamentos</h3>
+                        <span class="service-price gray-5 subtitle-1">A partir de R$ 10</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="./servicos.html" class="button" data-aos="fade-down" data-aos-duration="800">Veja Mais Serviços</a>
+        </div>
+    </article>
+
+    <article class="our-salon container" id="our-salon" aria-labelledby="salon-title">
+        <div class="salon-content" data-aos="fade-right" data-aos-duration="800">
+            <div class="salon-heading">
+                <span class="section-subtitle">nosso salão</span>
+                <h2 class="salon-title gray-11 headline-2" id="salon-title">
+                    Venha conhecer o nosso espaço feito para você<span class="primary">.</span>
+                </h2>
+            </div>
+            <div class="salon-text body-1 gray-8">
+                <p>
+                    Conheça o nosso ambiente inspirado nas barbearias clássicas americanas. Queríamos um espaço que conversasse com a nossa tradição mas sempre com um toque de modernidade dos dias atuais.
+                </p>
+                <p>
+                    Nosso salão foi todo planejado para lhe proporcionar a melhor experiência da sua vida, corte seu cabelo enquanto resenha com amigos, bebe sua gelada e escuta clássicos do rock.
+                </p>
+            </div>
+            <a href="./contato.html" class="button icon">
+                Quero Conheçer
+                <img src="./images/icons/arrow.svg" alt="" width="30" height="30">
+            </a>
+        </div>
+
+        <div class="salon-img" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+            <picture>
+                <source media="(max-width: 900px)" srcset="./images/photos/others/salon-tablet.jpg">
+                <source media="(max-width: 576px)" srcset="./images/photos/others/salon-mobile.jpg">
+                <img src="./images/photos/others/salon.jpg" alt="Desfrute de todo o nosso espaço" width="600">
+            </picture>
+        </div>
+    </article>
+
+    <section class="video-tour" id="video-tour" aria-label="Faça um Tour pela nossa barbearia">
+        <a href="https://www.youtube.com/watch?v=BciS5krYL80" target="_blank">
+            <div class="container" data-aos="fade-down" data-aos-duration="800">
+                <img src="./images/icons/player.svg" class="video-player" alt="" width="100">
+                <h2 class="video-title white headline-1">
+                    Bem vindo a barbearia que entende de personalidade<span class="primary">.</span>
+                </h2>
+                <p class="video-subtitle gray-3 description">
+                    Nossos profissionais estão prontos para transformar o seu visual com cortes que contam a sua história.
+                </p>
+            </div>
+        </a>
+    </section>
+
+    <article class="testimonials container" id="testimonials" aria-labelledby="testimonials-title">
+        <div class="testimonials-heading" data-aos="fade-down" data-aos-duration="800">
+            <span class="section-subtitle">depoimentos</span>
+            <h2 class="testimonials-title headline-2 gray-11">
+                Histórias de quem já teve a sua experiência na Fígaro<span class="primary">.</span>
+            </h2>
+        </div>
+
+        <ul class="testimonials-list" data-aos="fade-right" data-aos-duration="800">
+            <li class="testimonial">
+                <div class="user">
+                    <img src="./images/photos/testimonials/testimonial1.jpg" alt="Foto da pessoa que fez o depoimento" width="52" height="52">
+                    <div class="user-info">
+                        <p class="name">João Pedro</p>
+                        <span class="username">user_joao_pedro</span>
+                    </div>
+                </div>
+                <img src="./images/icons/quote.svg" alt="" width="25" height="20">
+                <p class="body-2 gray-8">
+                    Desde que comecei a vir aqui, nunca mais cortei em outro lugar. O ambiente é top, os barbeiros são gente boa e saio sempre feliz com o corte. Recomendo demais!
+                </p>    
+            </li>
+
+            <li class="testimonial">
+                <div class="user">
+                    <img src="./images/photos/testimonials/testimonial2.jpg" alt="Foto da pessoa que fez o depoimento" width="52" height="52">
+                    <div class="user-info">
+                        <p class="name">Carlos Eduardo</p>
+                        <span class="username">user_carlos_eduardo</span>
+                    </div>
+                </div>
+                <img src="./images/icons/quote.svg" alt="" width="25" height="20">
+                <p class="body-2 gray-8">
+                    Já rodei várias barbearias, mas essa aqui é a melhor de todas. Sempre saio satisfeito de lá, os caras são fera demais e o atendimento é o melhor que tem. Nota 10!
+                </p>    
+            </li>
+
+            <li class="testimonial">
+                <div class="user">
+                    <img src="./images/photos/testimonials/testimonial3.jpg" alt="Foto da pessoa que fez o depoimento" width="52" height="52">
+                    <div class="user-info">
+                        <p class="name">Luis Felipe</p>
+                        <span class="username">user_luis_felipe</span>
+                    </div>
+                </div>
+                <img src="./images/icons/quote.svg" alt="" width="25" height="20">
+                <p class="body-2 gray-8">
+                    Não é só uma barbearia, é um clube de amigos! Os caras aqui entendem do assunto e o papo é sempre bom. Melhor parte do meu mês é vir dar aquele tapa no visual.
+                </p>    
+            </li>
+
+            <li class="testimonial">
+                <div class="user">
+                    <img src="./images/photos/testimonials/testimonial4.jpg" alt="Foto da pessoa que fez o depoimento" width="52" height="52">
+                    <div class="user-info">
+                        <p class="name">Antônio Miguel</p>
+                        <span class="username">user_antonio_miguel</span>
+                    </div>
+                </div>
+                <img src="./images/icons/quote.svg" alt="" width="25" height="20">
+                <p class="body-2 gray-8">
+                    A barbearia é sem dúvida uma das melhores que já fui. Os barbeiros são super profissionais e o ambiente é super tranquilo. Achei o preço super justo!
+                </p>    
+            </li>
+
+            <li class="testimonial">
+                <div class="user">
+                    <img src="./images/photos/testimonials/testimonial5.jpg" alt="Foto da pessoa que fez o depoimento" width="52" height="52">
+                    <div class="user-info">
+                        <p class="name">José Henrique</p>
+                        <span class="username">user_jose_henrique</span>
+                    </div>
+                </div>
+                <img src="./images/icons/quote.svg" alt="" width="25" height="20">
+                <p class="body-2 gray-8">
+                    Além de cortar cabelo, o pessoal aqui faz a gente se sentir em casa. Sempre tem uma boa conversa e a qualidade é impecável. Um abiente muito bacana e agradável!
+                </p>    
+            </li>
+
+            <li class="testimonial">
+                <div class="user">
+                    <img src="./images/photos/testimonials/testimonial6.jpg" alt="Foto da pessoa que fez o depoimento" width="52" height="52">
+                    <div class="user-info">
+                        <p class="name">Paulo César</p>
+                        <span class="username">user_paulo_cesar</span>
+                    </div>
+                </div>
+                <img src="./images/icons/quote.svg" alt="" width="25" height="20">
+                <p class="body-2 gray-8">
+                    Aqui não é só corte de cabelo, é uma experiência completa. Desde o atendimento até o corte final. Melhor experiência que já tive, esses caras são feras!
+                </p>    
+            </li>
+        </ul>
+    </article>
+    
+    <footer class="footer-bg">
+        <div class="footer-content container">
+            <img src="./images/footer-logo.svg" alt="Fígaro Barbearia" class="footer-logo" data-aos="fade-right" data-aos-duration="800" width="100">
+
+            <div class="contact" data-aos="fade-right" data-aos-duration="800">
+                <h3 class="footer-title headline-5 white">ENTRE EM CONTATO</h3>
+
+                <div class="contact-links body-1 gray-5">
+                    <a href="tel:+5500123456789">+55 00 12345-6789</a>
+                    <a href="mailto:figarobarbearia@gmail.com">figarobarbearia@gmail.com</a>
+                </div>
+
+                <address class="body-1 gray-5">
+                    Rua Ali Perto, Filadélfia, 999 <br> Iguatu, Ceará, Brasil
+                </address>
+
+                <div class="social-media">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./images/icons/instagram.svg" alt="Instagram" width="32" height="32">
+                    </a>
+                    <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                        <img src="./images/icons/facebook.svg" alt="Facebook" width="32" height="32">
+                    </a>
+                    <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+                        <img src="./images/icons/whatsapp.svg" alt="Whatsapp" width="32" height="32">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-nav" data-aos="fade-right" data-aos-duration="800">
+                <h3 class="footer-title headline-5 white">INFORMAÇÕES</h3>
+                <nav>
+                    <ul class="footer-menu body-1 gray-5">
+                        <li><a href="./sobre.html">Sobre</a></li>
+                        <li><a href="./servicos.html">Serviços</a></li>
+                        <li><a href="./horarios.html">Horários</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="footer-copy">
+            <p class="body-1 gray-6">Fígaro Barbearia 2024. Alguns Direitos Reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

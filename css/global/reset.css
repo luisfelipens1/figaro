@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F7F7F7;
+    position: relative;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100% !important; 
+    display: block;
+}
+
+img[src$=".jpg"]{
+    border-radius: 8px;
+}
+
+.map img{
+    border-radius: 0;
+}
